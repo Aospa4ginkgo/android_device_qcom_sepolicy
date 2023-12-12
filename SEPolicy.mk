@@ -1,3 +1,4 @@
+SELINUX_IGNORE_NEVERALLOWS := true
 # Board specific SELinux policy variable definitions
 ifeq ($(call is-vendor-board-platform,QCOM),true)
 SEPOLICY_PATH:= device/qcom/sepolicy
